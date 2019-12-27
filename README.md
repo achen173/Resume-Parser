@@ -17,3 +17,4 @@ in other words (e.g., plurals count).  Look at the -o option to grep.
 
 ## Example Output
   
+![](https://github.com/achen173/Resume-Parser/blob/master/ExampleOutput.JPG)
