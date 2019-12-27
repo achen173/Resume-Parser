@@ -1,5 +1,7 @@
 # Resume-Parser
 
+**Objective** : With companies that receive hundreds of resumes daily, it is important to have an automated(time saving) ranking system in place. This script eases the burden of a recruiter by ordering the most relevant resumes based on keywords. 
+
 This is a bash script to automatically order resumes by certain keywords and its associated point system.  The bash script should be named "HR_sorter", and read a file called "input.txt".  The "input.txt" file will have a keyword and a numerical weight on each line (separated by a space).  The ordering of the resumes by keywords should be based on a total score, which is the sum of the score for each keyword. Resumes will be simple ASCII-encoded text files (with random extensions) in a subdirectory called "submissions".  
 
 The output of the "HR_sorter" script should show on each line the filename of the resume and total score of the resume, sorted by the 
@@ -18,3 +20,5 @@ in other words (e.g., plurals count).  Look at the -o option to grep.
 ## Example Output
   
 ![](https://github.com/achen173/Resume-Parser/blob/master/ExampleOutput.JPG)
+
+David_Griffon received the most points based on the keywords found in his resume.  
